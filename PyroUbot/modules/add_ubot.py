@@ -17,7 +17,7 @@ async def _(client, message):
     user_id = message.from_user.id
     buttons = BTN.START(message)
     msg = MSG.START(message)
-    pantek = "https://files.catbox.moe/nb0k2h.jpg"
+    pantek = "https://files.catbox.moe/7irvuk.jpg"
 
     await bot.send_photo(
         user_id, 
@@ -313,7 +313,7 @@ async def _(client, callback_query):
 ɴᴀᴍᴇ : <a href=tg://user?id={new_client.me.id}>{new_client.me.first_name} {new_client.me.last_name or ''}</a>
 ɪᴅ : {new_client.me.id}
 ᴘʀᴇꜰɪxᴇꜱ : {' '.join(SH)}
-ʜᴀʀᴀᴘ ᴊᴏɪɴ : @IbnuXuserbot ʜᴀʀᴀᴘ ᴊᴏɪɴ ʀᴏᴏᴍ ᴅɪᴀᴛᴀs ᴅᴀɴ ᴊᴀɴɢᴀɴ ᴏᴜᴛ ᴀɢᴀʀ sᴀғᴇᴛʏ
+ʜᴀʀᴀᴘ ᴊᴏɪɴ : @UbotSupport ʜᴀʀᴀᴘ ᴊᴏɪɴ ʀᴏᴏᴍ ᴅɪᴀᴛᴀs ᴅᴀɴ ᴊᴀɴɢᴀɴ ᴏᴜᴛ ᴀɢᴀʀ sᴀғᴇᴛʏ
 ᴊɪᴋᴀ ʙᴏᴛ ᴛɪᴅᴀᴋ ʀᴇꜱᴘᴏɴ, ᴋᴇᴛɪᴋ /restart</b></blockquote>
         """
     await bot_msg.edit(text_done, disable_web_page_preview=True,
@@ -321,9 +321,9 @@ async def _(client, callback_query):
     await bash("rm -rf *session*")
     await install_my_peer(new_client)
     try:
-        await new_client.join_chat("IbnuXuserbot")
-        await new_client.join_chat("publikibnu")
-        await new_client.join_chat("MizukiOgawaRR")
+        await new_client.join_chat("UbotSupport")
+        await new_client.join_chat("roompublikbyyhynn")
+        await new_client.join_chat("UbotSupport")
     except UserAlreadyParticipant:
         pass
 
