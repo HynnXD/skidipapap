@@ -150,7 +150,7 @@ class BTN:
             button = [
                 [InlineKeyboardButton("⦪ ʙᴇʟɪ ᴜꜱᴇʀʙᴏᴛ ⦫", callback_data="bahan")],
                 [
-                    InlineKeyboardButton("✭ ʀᴏᴏᴍ ᴘᴜʙʟɪᴄ ✭", url="https://t.me/roompublikbyyhynn")
+                    InlineKeyboardButton("✭ ʀᴏᴏᴍ ᴘᴜʙʟɪᴄ ✭", url="https://t.me/roompublikbyyhynn"),
                     InlineKeyboardButton("✭ ᴄʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ✭", url="https://t.me/UbotSupport")
                 ],
                 [
